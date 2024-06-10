@@ -60,7 +60,7 @@ const colorTransitionDuration = 2; // Ubah durasi transisi warna di sini
 
 // Load GLTF model
 const loader = new THREE.GLTFLoader();
-loader.load('models/model.glb', function(gltf) {
+loader.load('models/Model.glb', function(gltf) {
     const model = gltf.scene;
     const animations = gltf.animations;
 
